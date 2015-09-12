@@ -1,0 +1,561 @@
+fileFormatVersion: 2
+guid: 4499c35d8f3d54e50becc52f592e9b7d
+timeCreated: 1441784408
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_0"
+    21300002: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_1"
+    21300004: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_2"
+    21300006: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_3"
+    21300008: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_4"
+    21300010: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_5"
+    21300012: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_6"
+    21300014: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_7"
+    21300016: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_8"
+    21300018: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_9"
+    21300020: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_10"
+    21300022: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_11"
+    21300024: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_12"
+    21300026: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_13"
+    21300028: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_14"
+    21300030: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_15"
+    21300032: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_16"
+    21300034: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_17"
+    21300036: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_18"
+    21300038: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_19"
+    21300040: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_20"
+    21300042: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_21"
+    21300044: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_22"
+    21300046: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_23"
+    21300048: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_24"
+    21300050: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_25"
+    21300052: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_26"
+    21300054: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_27"
+    21300056: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_28"
+    21300058: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_29"
+    21300060: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_30"
+    21300062: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_31"
+    21300064: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_32"
+    21300066: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_33"
+    21300068: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_34"
+    21300070: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_35"
+    21300072: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_36"
+    21300074: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_37"
+    21300076: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_38"
+    21300078: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_39"
+    21300080: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_40"
+    21300082: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_41"
+    21300084: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_42"
+    21300086: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_43"
+    21300088: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_44"
+    21300090: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_45"
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_0"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 5882
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_1"
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 5868
+        width: 106
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_2"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 5621
+        width: 114
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_3"
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 5606
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_4"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 5356
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_5"
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 5344
+        width: 109
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_6"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 5094
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_7"
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 5080
+        width: 112
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_8"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 4833
+        width: 114
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_9"
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 4818
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_10"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 4568
+        width: 114
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_11"
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 4556
+        width: 112
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_12"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 4353
+        width: 97
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_13"
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 4292
+        width: 106
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_14"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 4089
+        width: 97
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_15"
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 4030
+        width: 109
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_16"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3633
+        width: 579
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_17"
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 3745
+        width: 138
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_18"
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 3721
+        width: 235
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_19"
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 3827
+        width: 97
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_20"
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 3768
+        width: 111
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_21"
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 3024
+        width: 265
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_22"
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 3001
+        width: 265
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_23"
+      rect:
+        serializedVersion: 2
+        x: 2571
+        y: 2342
+        width: 124
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_24"
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 2768
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_25"
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 2686
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_26"
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 2716
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_27"
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 2668
+        width: 50
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_28"
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 2654
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_29"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2327
+        width: 550
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_30"
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 2319
+        width: 239
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_31"
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 2310
+        width: 253
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_32"
+      rect:
+        serializedVersion: 2
+        x: 3318
+        y: 2130
+        width: 267
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_33"
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1245
+        width: 288
+        height: 615
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_34"
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 1319
+        width: 288
+        height: 541
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_35"
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1216
+        width: 535
+        height: 497
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_36"
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 398
+        width: 344
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_37"
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 390
+        width: 341
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_38"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 419
+        width: 121
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_39"
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 413
+        width: 171
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_40"
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 390
+        width: 115
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_41"
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 428
+        width: 321
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_42"
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 422
+        width: 150
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_43"
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 493
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_44"
+      rect:
+        serializedVersion: 2
+        x: 3303
+        y: 193
+        width: 621
+        height: 488
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: "\u5C0F\u5730\u9F20\u96DC\u7269 \u62F7\u8C9D_45"
+      rect:
+        serializedVersion: 2
+        x: 4418
+        y: 240
+        width: 442
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

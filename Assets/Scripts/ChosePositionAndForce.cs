@@ -18,17 +18,11 @@ public class ChosePositionAndForce : MonoBehaviour {
 	bool ChosePosition = false ;
 	bool ChoseForce = false;
 
+	float PowerDegree = 0f;
+
 	// Use this for initialization
 	void Start () {
-
-
-		
 		iTween.MoveTo (Luncher, iTween.Hash ("x", LuncherendPosition,"speed",Luncherspeed,"EaseType",LunchereaseType,"LoopType",LuncherloopType));
-		
-
-
-		
-	
 	}
 	
 	// Update is called once per frame
@@ -52,9 +46,12 @@ public class ChosePositionAndForce : MonoBehaviour {
 	void OnMouseDown() {	
 		if (ChosePosition == false)
 			ChosePosition = true;
-		else 
+		else if (ChosePosition == true && ChoseForce == false) {
 			ChoseForce = true;
-
-
+			//Compute Force power 
+			PowerDegree = Mathf.Abs (Star.transform.position.y - StarPosition)/ Mathf.Abs(StarendPosition - StarPosition) * 100;
+			
+			print (PowerDegree);
+		}
 	}
 }

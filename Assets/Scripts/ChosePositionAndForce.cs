@@ -15,14 +15,16 @@ public class ChosePositionAndForce : MonoBehaviour {
 	public float LuncherPosition,LuncherendPosition;
 	public float Luncherspeed;
 
-
-
+	bool ChosePosition = false ;
+	bool ChoseForce = false;
 
 	// Use this for initialization
 	void Start () {
+
+
+		
 		iTween.MoveTo (Luncher, iTween.Hash ("x", LuncherendPosition,"speed",Luncherspeed,"EaseType",LunchereaseType,"LoopType",LuncherloopType));
 		
-		iTween.MoveTo (Star, iTween.Hash ("y", StarendPosition,"speed",Starspeed,"EaseType",StareaseType,"LoopType",StarloopType));
 
 
 		
@@ -31,6 +33,28 @@ public class ChosePositionAndForce : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
+
+
+		if (ChosePosition == true && ChoseForce == false) 
+		{
+			iTween.Stop (Luncher);
+			iTween.MoveTo (Star, iTween.Hash ("y", StarendPosition, "speed", Starspeed, "EaseType", StareaseType, "LoopType", StarloopType));
+		} 
+		else if (ChosePosition == true && ChoseForce == true) 
+		{
+			iTween.Stop(Luncher);
+			iTween.Stop(Star);	
+		}
+
+	}
+
+	void OnMouseDown() {	
+		if (ChosePosition == false)
+			ChosePosition = true;
+		else 
+			ChoseForce = true;
+
+
 	}
 }

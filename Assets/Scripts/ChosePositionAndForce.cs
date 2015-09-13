@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ChosePositionAndForce : MonoBehaviour {
 
-	public GameObject Star,Luncher;
+	public GameObject Star,Luncher,Boom;
 	public iTween.EaseType StareaseType;
 	public iTween.LoopType StarloopType;
 	public float StarPosition,StarendPosition;
@@ -15,6 +15,12 @@ public class ChosePositionAndForce : MonoBehaviour {
 	public float LuncherPosition,LuncherendPosition;
 	public float Luncherspeed;
 
+
+	public iTween.EaseType BoomeaseType;
+	public iTween.LoopType BoomloopType;
+	public float BoomPosition,BoomendPosition;
+	public float Boomspeed;
+
 	bool ChosePosition = false ;
 	bool ChoseForce = false;
 
@@ -23,6 +29,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		iTween.MoveTo (Luncher, iTween.Hash ("x", LuncherendPosition,"speed",Luncherspeed,"EaseType",LunchereaseType,"LoopType",LuncherloopType));
+		
 	}
 	
 	// Update is called once per frame
@@ -52,6 +59,12 @@ public class ChosePositionAndForce : MonoBehaviour {
 			PowerDegree = Mathf.Abs (Star.transform.position.y - StarPosition)/ Mathf.Abs(StarendPosition - StarPosition) * 100;
 			
 			print (PowerDegree);
+
+			Vector3 NewBoomPostion = new Vector3 (Luncher.transform.position.x, BoomPosition, 85);
+			
+			GameObject newBoom = Instantiate(Boom, NewBoomPostion , Quaternion.identity) as GameObject;
+			iTween.MoveTo (newBoom, iTween.Hash ("y",BoomendPosition ,"speed",Boomspeed,"EaseType",BoomeaseType,"LoopType",BoomloopType));
+
 		}
 	}
 }

@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BoardManager1.cs" />
      <Compile Include="Assets\Scripts\ChosePositionAndForce.cs" />
+     <Compile Include="Assets\Scripts\DestoryWall.cs" />
      <Compile Include="Assets\Scripts\Launcher.cs" />
      <Compile Include="Assets\Scripts\gamemanager.cs" />
      <None Include="Assets\Fonts\OFL.txt" />

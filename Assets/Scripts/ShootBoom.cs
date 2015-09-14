@@ -14,10 +14,14 @@ public class ShootBoom : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-	
+	//print (ChosePositionAndForce.displayCarrierOrNot);
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
+
+		if (ChosePositionAndForce.displayCarrierOrNot  == false)
+			ChosePositionAndForce.displayCarrierOrNot = true;
+
         Destroy(gameObject);
     }
 }

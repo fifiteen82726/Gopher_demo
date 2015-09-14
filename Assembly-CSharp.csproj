@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\ChosePositionAndForce.cs" />
      <Compile Include="Assets\Scripts\DestoryWall.cs" />
      <Compile Include="Assets\Scripts\Launcher.cs" />
+     <Compile Include="Assets\Scripts\ShootBoom.cs" />
      <Compile Include="Assets\Scripts\gamemanager.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />

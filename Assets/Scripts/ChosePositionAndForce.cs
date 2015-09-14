@@ -43,7 +43,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 
 
 
-		if (ChosePosition == true && ChoseForce == false && ) 
+		if (ChosePosition == true && ChoseForce == false /*&&*/ ) 
 		{
 			iTween.Pause (Luncher);
 			iTween.MoveTo (Star, iTween.Hash ("y", StarendPosition, "speed", Starspeed, "EaseType", StareaseType, "LoopType", StarloopType));

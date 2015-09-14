@@ -3,7 +3,8 @@ using System.Collections;
 
 public class ChosePositionAndForce : MonoBehaviour {
 
-	public GameObject Star,Luncher,Boom;
+
+	public GameObject Star,Luncher,Boom,Display_Carrier;
 	public iTween.EaseType StareaseType;
 	public iTween.LoopType StarloopType;
 	public float StarPosition,StarendPosition;
@@ -26,6 +27,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 
 	float PowerDegree = 0f;
 
+	public static bool displayCarrierOrNot = true;
 	// Use this for initialization
 	void Start () {
 		iTween.MoveTo (Luncher, iTween.Hash ("x", LuncherendPosition,"speed",Luncherspeed,"EaseType",LunchereaseType,"LoopType",LuncherloopType));
@@ -48,6 +50,16 @@ public class ChosePositionAndForce : MonoBehaviour {
 			iTween.Stop(Star);	
 		}
 
+		//if(displayCarrierCount  == true)
+		//	Display_Carrier.GetComponent<SpriteRenderer>().enabled = true;
+		//else 
+		//	Display_Carrier.GetComponent<SpriteRenderer>().enabled = false;
+
+		Display_Carrier.GetComponent<SpriteRenderer>().enabled = displayCarrierOrNot;
+		 
+
+
+
 	}
 
 	void OnMouseDown() {	
@@ -64,6 +76,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 			
 			GameObject newBoom = Instantiate(Boom, NewBoomPostion , Quaternion.identity) as GameObject;
 			iTween.MoveTo (newBoom, iTween.Hash ("y",BoomendPosition ,"speed",Boomspeed,"EaseType",BoomeaseType,"LoopType",BoomloopType));
+			displayCarrierOrNot = false;
 
 		}
 	}

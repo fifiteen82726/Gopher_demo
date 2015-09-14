@@ -60,14 +60,15 @@ public class showgropher : MonoBehaviour {
 				else {
 					showwords = Random.Range (7, 12);
 				}
-				showwords = Random.Range (1, 12);
 				gropher [cgropher-1].SetActive (true);
 
 				Text[] word = gropher [cgropher-1].GetComponentsInChildren<Text>();// = words[showwords-1];
+				Debug.Log(cgropher);
+					Debug.Log(showwords);
 				word[0].text = words[showwords-1];
 				rnd = false;
 			}
-			Debug.Log(cgropher);
+			//Debug.Log(cgropher);
 
 			if (showtimer>=showtime)	{
 				gropher [cgropher-1].SetActive (false);
@@ -76,7 +77,7 @@ public class showgropher : MonoBehaviour {
 				showtimer = 0;
 			}
 		}
-		Debug.Log(timer);
+	//	Debug.Log(timer);
 		//good_gropher [0].SetActive (false);
 
 	}

@@ -41,9 +41,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-
-
-		if (ChosePosition == true && ChoseForce == false /*&&*/ ) 
+		if (ChosePosition == true && ChoseForce == false  ) 
 		{
 			iTween.Pause (Luncher);
 			iTween.MoveTo (Star, iTween.Hash ("y", StarendPosition, "speed", Starspeed, "EaseType", StareaseType, "LoopType", StarloopType));

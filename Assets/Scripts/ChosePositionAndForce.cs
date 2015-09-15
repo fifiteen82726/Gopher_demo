@@ -68,7 +68,6 @@ public class ChosePositionAndForce : MonoBehaviour {
 	void OnMouseDown() {	
 		
 		if (ChosePosition == false){
-			
 			ChosePosition = true;
 			if(CarrierReset==true)
 			{

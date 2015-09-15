@@ -82,7 +82,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 			//Compute Force power 
 			PowerDegree = Mathf.Abs (Star.transform.position.y - StarPosition)/ Mathf.Abs(StarendPosition - StarPosition) * 100;
 			
-			print (PowerDegree);
+			//print (PowerDegree);
 
 			Vector3 NewBoomPostion = new Vector3 (Luncher.transform.position.x, BoomPosition, 85);
 			
@@ -98,7 +98,7 @@ public class ChosePositionAndForce : MonoBehaviour {
 			//發射玩後DisplayCarrier需要顯示新的
 			displayCarrierOrNot = true;
 
-			print (ChosePosition.ToString() + ChoseForce.ToString() + CarrierReset.ToString());
+			//print (ChosePosition.ToString() + ChoseForce.ToString() + CarrierReset.ToString());
 
 
 		}

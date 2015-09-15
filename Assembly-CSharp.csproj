@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\ShootBoom.cs" />
      <Compile Include="Assets\Scripts\Timmer.cs" />
      <Compile Include="Assets\Scripts\gamemanager.cs" />
+     <Compile Include="Assets\Scripts\test.cs" />
      <None Include="Assets\Fonts\OFL.txt" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
  <Reference Include="UnityEngine.UI">

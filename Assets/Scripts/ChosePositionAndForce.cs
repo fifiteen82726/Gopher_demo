@@ -64,47 +64,56 @@ public class ChosePositionAndForce : MonoBehaviour {
 
 	}
 
+	
 	void OnMouseDown() {	
 		
-		//print (ChosePosition.ToString() + ChoseForce.ToString() + CarrierReset.ToString());
-		
-
-		//移動中要停止
-		if (ChosePosition == false)
+		if (ChosePosition == false){
+			
 			ChosePosition = true;
+			if(CarrierReset==true)
+			{
+				iTween.Resume(Star);
+			}
+		}
 
-
-		//else if (ChosePosition == false && CarrierReset == true)
-		//if (ChosePosition == false && CarrierReset != true)
-		//停止後要讓星星停止
+		// make Star stop
 		else if (ChosePosition == true && ChoseForce == false) {
 			ChoseForce = true;
 			//Compute Force power 
 			PowerDegree = Mathf.Abs (Star.transform.position.y - StarPosition)/ Mathf.Abs(StarendPosition - StarPosition) * 100;
 			
-			print (PowerDegree);
+			//print (PowerDegree);
 
 			Vector3 NewBoomPostion = new Vector3 (Luncher.transform.position.x, BoomPosition, 85);
 			
 			GameObject newBoom = Instantiate(Boom, NewBoomPostion , Quaternion.identity) as GameObject;
-			iTween.MoveTo (newBoom, iTween.Hash ("y",BoomPosition+((BoomendPosition-BoomPosition)/100*PowerDegree) ,"speed",Boomspeed,"EaseType",BoomeaseType,"LoopType",BoomloopType));
-
+			iTween.MoveTo (newBoom, iTween.Hash 
+				("y",BoomPosition+((BoomendPosition-BoomPosition)/100*PowerDegree),
+				"speed",Boomspeed,
+				"EaseType",BoomeaseType,
+				"LoopType",BoomloopType,
+				"oncomplete","BoomComplete",
+				"oncompletetarget", gameObject,
+				"oncompleteparams", newBoom
+				));
 
 			displayCarrierOrNot = false;
 			CarrierReset = true;
 			ChosePosition  = false;
 			ChoseForce = false;
 			
-			//發射完畢Luncher開始動
+			//After Shot, Luncher will move
 			iTween.Resume(Luncher);
-			//發射玩後DisplayCarrier需要顯示新的
+			iTween.Pause(Star);	
+			
+			//After Shot, Luncher Carrier will display
 			displayCarrierOrNot = true;
-
-			//print (ChosePosition.ToString() + ChoseForce.ToString() + CarrierReset.ToString());
-
-
 		}
+	}
 
-		
+
+	void BoomComplete(GameObject boom){
+		print("complete");
+		Destroy(boom);
 	}
 }

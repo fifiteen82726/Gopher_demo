@@ -82,12 +82,14 @@ public class ChosePositionAndForce : MonoBehaviour {
 			//Compute Force power 
 			PowerDegree = Mathf.Abs (Star.transform.position.y - StarPosition)/ Mathf.Abs(StarendPosition - StarPosition) * 100;
 			
-			//print (PowerDegree);
+			print (PowerDegree);
 
 			Vector3 NewBoomPostion = new Vector3 (Luncher.transform.position.x, BoomPosition, 85);
 			
 			GameObject newBoom = Instantiate(Boom, NewBoomPostion , Quaternion.identity) as GameObject;
-			iTween.MoveTo (newBoom, iTween.Hash ("y",BoomendPosition ,"speed",Boomspeed,"EaseType",BoomeaseType,"LoopType",BoomloopType));
+			iTween.MoveTo (newBoom, iTween.Hash ("y",BoomPosition+((BoomendPosition-BoomPosition)/100*PowerDegree) ,"speed",Boomspeed,"EaseType",BoomeaseType,"LoopType",BoomloopType));
+
+
 			displayCarrierOrNot = false;
 			CarrierReset = true;
 			ChosePosition  = false;

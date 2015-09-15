@@ -24,8 +24,6 @@ public class Timmer : MonoBehaviour {
 			{
 				time_counter = 0;
 				time--;
-				//print (time);
-				//GetComponent<textMesh>().enabled = false;
 				GetComponent<TextMesh>().text = time.ToString();
 			}
 
